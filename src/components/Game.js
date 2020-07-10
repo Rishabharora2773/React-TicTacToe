@@ -9,7 +9,7 @@ function Game() {
         
     const handleClick = (i) => {
         // check if winner or clicking on already occupied cell
-        if(winner=='X' || winner=='O' || board[i]) return;
+        if(winner==='X' || winner==='O' || board[i]) return;
         
         // make a board copy
         const boardCopy = [...board];
