@@ -22,6 +22,9 @@ function Game() {
     const resetGame = () => {
         const boardCopy = Array(9).fill(null);
         setBoard(boardCopy);
+		
+		// resetting class back to original
+		for(let i=0;i<9;i++) document.getElementById(i).className = "square";
     }
      
     return (
