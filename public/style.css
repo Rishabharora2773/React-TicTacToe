@@ -47,3 +47,10 @@ p {
    font-size: 20px;
    font-family: sans-serif; 
 }
+
+.winner-class {
+	font-size: 30px;
+    color: red;
+	background-color: yellow;
+	font-weight: 900;
+}
